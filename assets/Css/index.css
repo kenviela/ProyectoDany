@@ -55,7 +55,11 @@ button{
   font-weight: 800;
   font-size: 30px;
   font-family: 'Itim', cursive;
+  cursor: pointer;
   
+}
+button label{
+  cursor: pointer;
 }
 main{
   background-color:#A3FA9F;
@@ -69,4 +73,62 @@ footer{
   font-family: 'Itim', cursive;
   font-size: 11px;
   color:white;
+}
+#modal{
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  position:fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition:all .5;
+}
+#modal p {
+  width: 60%;
+  height: 40%;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1,5em;
+  text-align: center;
+}
+#showInformation{
+  display: none;
+}
+#showInformation:checked ~ #modal{
+  top: 0;
+}
+#hideInformation{
+  display: none;
+}
+#hideInformation:checked ~ #modal{
+  top: -100vh;
+}
+#showHobbies{
+  display: none;
+}
+#showHobbies:checked ~ #modal{
+  top: 0;
+}
+#hideHobbies{
+  display: none;
+}
+#hideHobbies:checked ~ #modal{
+  top: -100vh;
+}
+#showMyLikes{
+  display: none;
+}
+#showMyLikes:checked ~ #modal{
+  top: 0;
+}
+#hideMyLikes{
+  display: none;
+}
+#hideMyLikes:checked ~ #modal{
+  top: -100vh;
 }
