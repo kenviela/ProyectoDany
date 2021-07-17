@@ -6,7 +6,7 @@ body{
   height: 100vh;
 }
 header{
-  height: 350px;
+  height: auto;
   background:url("../img/backgroundHeader.jpg");
   background-size: 100%;
   display: flex;
@@ -15,19 +15,29 @@ header{
 
 }
 .avatar{
-  /*width: 100%;*/
-  height: 80%;
+  height: 200px;
   margin-top: 25px;
   border-radius: 50px;
   border:10px solid rgba(71, 121, 55, 0.685);
 }
-h1{
-  margin:0;
-  margin-top:-90px;
-  font-size: 75px;
+.title{
+  height: 20%;
+  width: 65%;
+  font-size: 6vw;
+  margin-bottom:25px;
+  margin-top: -50px;
+  text-align: center;
+  max-width:700px;
+}
+.title span{
   font-family: 'Itim', cursive;
   color:#E61E70;
-  -webkit-text-stroke:1px #99003F;
+  -webkit-text-stroke:2px #99003F;
+}
+@media (min-width: 700px) {
+.title{
+font-size: 4vw;
+}
 }
 .buttons{
   display:flex;
