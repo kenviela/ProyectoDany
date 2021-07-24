@@ -56,7 +56,7 @@ button{
   font-size: 30px;
   font-family: 'Itim', cursive;
   cursor: pointer;
-  
+  transition: all .5s;
 }
 button label{
   cursor: pointer;
@@ -82,7 +82,7 @@ footer{
   left: 0;
   height: 100vh;
   width: 100vw;
-  transition:all .5;
+  transition:all .5s;
 }
 #modal p {
   width: 60%;
@@ -131,4 +131,9 @@ footer{
 }
 #hideMyLikes:checked ~ #modal{
   top: -100vh;
+}
+.stickOut:hover,.stickOut:focus{
+  margin-top: -20px;
+  box-shadow: 0 10px 0 0 #ca809f;
+  transition: all 5;
 }
