@@ -75,7 +75,7 @@ footer{
   color:white;
 }
 #modal{
-  background: url("../img/backgroundModal2.jpg");
+  background:url("/assets/img/backgroundModal2.jpg");
   background-size: 150%;
   color: rgb(0, 0, 0);
   position:fixed;
