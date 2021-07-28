@@ -75,9 +75,9 @@ footer{
   color:white;
 }
 #modal{
-  background:url("/assets/img/backgroundModal2.jpg");
+  background:rgba(0, 0, 0, 0.8);
   background-size: 150%;
-  color: rgb(0, 0, 0);
+  color: rgb(253, 253, 253);
   position:fixed;
   top: -100vh;
   left: 0;
